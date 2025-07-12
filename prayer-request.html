@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Member Registration | SoftCode ChurchDB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register a Prayer Request</title>
   <link rel="icon" type="image/png" href="images/favicon.png"> <!-- Add this line -->
   <link rel="stylesheet" href="form-style.css">
 </head>
 <body>
 
-  <nav class="navbar">
+   <nav class="navbar">
   <a href="index.html" class="nav-brand">
     <img src="images/SoftCode ChurchDB2.1.jpg" alt="ChurchDB Logo" class="nav-logo">
     <span class="nav-title">ChurchDB</span>
@@ -26,7 +26,7 @@
 
   <div class="form-container">
     <img src="images/SoftCode ChurchDB2.1.jpg" alt="ChurchDB Logo" class="welcome-logo">
-    <h1 class="form-title">Kindly Input Your Data Below:</h1>
+    <h1 class="form-title">Register A Prayer Request</h1>
 
     <form id="form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DWU00000PkmJN" method="POST">
       <input type="hidden" name="oid" value="00DWU00000PkmJN">
@@ -63,26 +63,27 @@
   <small>Example: 2347033953388</small>
 </div>
 
+
+      <div class="form-group checkbox-group">
+        <input type="checkbox" id="00NWU00000wVbYA" name="00NWU00000wVbYA" value="1" checked>
+        <label for="00NWU00000wVbYA">Are You A Visitor?</label>
+      </div>
+
       <div class="form-group">
         <label for="company">Profession *</label>
         <input type="text" id="company" name="company" required>
       </div>
 
       <div class="form-group">
-        <label for="00NWU00000wVHBF">Birthday Celebration Date *</label>
+        <label for="00NWU00000wVHBF">Birthday Celebration *</label>
         <input type="text" id="00NWU00000wVHBF" name="00NWU00000wVHBF" placeholder="dd/mm/yyyy" required>
         <small>Example: 16/09/2020</small>
       </div>
 
       <div class="form-group">
-        <label for="00NWU00000wVGez">Wedding Anniversary Date</label>
+        <label for="00NWU00000wVGez">Wedding Anniversary</label>
         <input type="text" id="00NWU00000wVGez" name="00NWU00000wVGez" placeholder="dd/mm/yyyy">
         <small>Example: 16/09/2020</small>
-      </div>
-
-      <div class="form-group checkbox-group">
-        <input type="checkbox" id="00NWU00000wVEiF" name="00NWU00000wVEiF" value="1">
-        <label for="00NWU00000wVEiF">Are You A Worker?</label>
       </div>
 
       <div class="form-group">
