@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome | SoftCode ChurchDB</title>
-  <link rel="icon" type="image/png" href="images/favicon.png"> <!-- Add this line -->
-  <link rel="stylesheet" href="form-style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChurchDB App</title>
+  <link rel="icon" href="images/SoftCode-Favicon.png" type="image/png" />
+  <link rel="stylesheet" href="dashboard.css" />
 </head>
-
-
 <body>
+  <header class="app-header">
+    <img src="images/ChurchDB-white-logo.png" alt="ChurchDB Logo" class="app-logo" />
+    <h1 class="app-title">Welcome to ChurchDB</h1>
+    <hr class="decorative-line" />
+    <h2 class="app-subtitle">A smarter way to manage your church data — securely and effectively.</h2>
+  </header>
 
-   <nav class="navbar">
-  <a href="index.html" class="nav-brand">
-    <img src="images/SoftCode ChurchDB2.1.jpg" alt="ChurchDB Logo" class="nav-logo">
-    <span class="nav-title">ChurchDB</span>
-  </a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="prayer-request.html">Prayer Request</a></li>
-    <li><a href="member.html">Member</a></li>
-    <li><a href="appointment.html">Book Appointment</a></li>
-  </ul>
-</nav>
+  <section id="church-title" class="church-title-card">
+    <img src="images/New RCCG Logo.png" alt="Logo" class="welcome-logo">
+    <h2>RCCG YP9</h2>
+    <p>The Royal Family</p>
+  </section>
 
+  <main class="dashboard">
+        <a href="index.html" class="tile tile-mission">
+      🏠<span>Home</span>
+    </a>
+    <a href="first-timer.html" class="tile tile-first-timer">
+      🙋‍♂️<span>First Timer</span>
+    </a>
+    <a href="member.html" class="tile tile-member">
+      👥<span>Member</span>
+    </a>
+    <a href="https://www.soft-code.org" target="_blank" rel="noopener" class="tile tile-powered">
+      ⚡<span>Powered by SoftCode</span>
+    </a>
+  </main>
 
-
-  <div class="welcome-container">
-    <img src="images/SoftCode ChurchDB2.1.jpg" alt="ChurchDB Logo" class="welcome-logo">
-
-    <h1 class="welcome-title">Welcome to <span>SoftCode ChurchDB</span></h1>
-    <p class="welcome-text">A smarter way to manage your church data — securely and effectively.</p>
-
-    <div class="button-group">
-      <a href="prayer-request.html" class="btn-link">Register A Prayer Request</a>
-      <a href="member.html" class="btn-link">Register Member</a>
-      <a href="appointment.html" class="btn-link">Book Appointment</a>
-    </div>
-  </div>
+      <!-- Mission Section -->
+    <section class="mission-section">
+      <h2>Our Mission & Vision</h2>
+      <ul class="mission-list">
+        <li><strong>1)</strong> To make heaven.</li>
+        <li><strong>2)</strong> To take as many people with us.</li>
+        <li><strong>3)</strong> To have a member of RCCG in every family of all nations.</li>
+        <li><strong>4)</strong> To accomplish No. 1 above, holiness will be our lifestyle.</li>
+        <li><strong>5)</strong> To accomplish No. 2 and 3 above, we will plant churches within five minutes walking distance in every city and town of developing countries and within five minutes driving distance in every city and town of developed countries.
+        </li>
+        <li><strong>6)</strong> We will pursue these objectives until every Nation in the world is reached for the Lord Jesus Christ</li>
+      </ul>
+    </section>
 
 </body>
 </html>

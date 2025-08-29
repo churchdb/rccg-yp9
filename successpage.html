@@ -2,37 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Submission Successful | SoftCode ChurchDB</title>
-  <link rel="icon" type="image/png" href="images/favicon.png"> <!-- Add this line -->
-  <link rel="stylesheet" href="form-style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChurchDB App</title>
+  <link rel="icon" href="images/SoftCode-Favicon.png" type="image/png" />
+  <link rel="stylesheet" href="dashboard.css" />
 </head>
 <body>
+  <header class="app-header">
+    <img src="images/ChurchDB-white-logo.png" alt="ChurchDB Logo" class="app-logo" />
+    <h1 class="app-title">ChurchDB</h1>
+    <hr class="decorative-line" />
+    <h2 class="app-subtitle">A smarter way to manage your church data — securely and effectively.</h2>
+  </header>
 
-  <!-- Nav Bar -->
-  <nav class="navbar">
-    <a href="index.html" class="nav-brand">
-      <img src="images/SoftCode ChurchDB2.1.jpg" alt="ChurchDB Logo" class="nav-logo">
-      <span class="nav-title">ChurchDB</span>
+  <section id="church-title" class="church-title-card">
+    <img src="images/New RCCG Logo.png" alt="Logo" class="welcome-logo">
+    <h2>RCCG YP9</h2>
+    <p>The Royal Family</p>
+  </section>
+
+  <main class="dashboard">
+
+      <a href="index.html" class="tile tile-mission">
+      🏠<span>Home</span>
+      </a>
+
+    <a href="member.html" class="tile tile-member">
+      👥<span>Member</span>
     </a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-    <li><a href="prayer-request.html">Prayer Request</a></li>
-    <li><a href="member.html">Member</a></li>
-    <li><a href="appointment.html">Book Appointment</a></li>
-    </ul>
-  </nav>
+  
+  </main>
 
   <div class="form-container" style="text-align: center;">
-    <img src="images/SoftCode ChurchDB2.1.jpg" alt="Success Logo" class="welcome-logo" style="width: 100px; margin-bottom: 20px;">
+    <img src="images/New RCCG Logo.png" alt="Success Logo" class="welcome-logo" style="width: 100px; margin-bottom: 20px;">
     <h1 class="form-title">Thank You!</h1>
-    <p class="welcome-text">Your information has been successfully submitted.</p>
-
-    <div class="button-group">
-      <a href="index.html" class="btn-link">Back to Home</a>
-      <a href="member.html" class="btn-link">Register Another Member</a>
-    </div>
+    <p class="welcome-text" style="text-align: center;">Your information has been successfully submitted.</p>
   </div>
+  <!-- Footer Promo Section -->
+
+  <a href="https://www.soft-code.org" target="_blank" rel="noopener" class="tile-powered-1">
+  <div class="icon">⚡</div>
+  Powered by SoftCode
+</a>
 
 </body>
 </html>
